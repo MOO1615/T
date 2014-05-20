@@ -1,0 +1,106 @@
+/*#e5193a, #fff, #303135*/
+
+body {
+	padding: 0px;
+	margin: 0;
+}
+
+.hh {
+	height: 555px;
+	width: 100%;
+	background-color: #e5193a;
+}
+.mm {
+	height: 1000px;
+	width: 100%;
+}
+
+.ff {
+	height: 320px;
+	width: 100%;
+	background-color: #303135;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+
+.header {
+	width: 960px;
+	height: 555px;
+	margin: auto;
+	background-image:url('tesla.png');
+	background-repeat: no-repeat no-repeat;
+}
+
+.logo {
+	padding-top: 70px;
+}
+
+.main{
+	height: 1000px;
+	width: 960px;
+}
+
+.footer{
+	height: 320px;
+	width: 960px;
+}
+
+.menu {	
+	list-style: none;
+	display: inline-block;
+	float: right;
+	padding-top: 55px;
+}
+
+.menu li { display: inline-block; }
+
+.menu li a {
+	padding: 0 15px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 16;
+}
+
+.menu li:hover > a { color:#a5a5a5; }
+
+.menu li ul {
+	visibility: hidden;
+	position: absolute;
+	z-index: 999;
+	width: 200px;
+	padding: 0;
+}
+
+.menu li:hover > ul { visibility: visible; }
+
+.menu li ul li { display: block; }
+
+.menu li ul > li {padding-top: 10px}
+
+.header_text {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	padding-top: 105px;
+	width: 700px;
+	display: block;
+}
+
+.header_text h1 {
+	font-weight: 400;
+	font-size: 350%;
+}
+
+.header_text p {
+	font-size: 18pt;
+	font-weight: 300;
+}
+
+.header_text a {
+	padding-left: 570px;
+}
+
